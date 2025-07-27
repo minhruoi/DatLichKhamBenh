@@ -1,0 +1,77 @@
+.login-background {
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+    .login-container {
+        height: 100%;
+        width: 400px;
+        margin: 0 auto;
+        background-color: white;
+        border-radius: 20px;
+
+
+        .login-content {
+            padding: 20px;
+
+            .text-login {
+                text-align: center;
+                font-size: 25px;
+                font-weight: bold;
+            }
+
+            .login-input {
+                margin: 10px 0;
+            }
+
+            .btn-login {
+                width: 100%;
+                margin: 10px 0;
+                color: white;
+                border: none;
+                outline: none;
+                height: 30px;
+                border-radius: 15px;
+                cursor: pointer;
+                background: linear-gradient(135deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
+            }
+
+            .forgot-password {
+                font-size: 11px;
+            }
+
+            .social-login {
+                display: flex;
+                justify-content: center;
+                margin-top: 10px;
+                text-align: center;
+
+                .google {
+                    font-size: 30px;
+                    background: #db4437;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    margin-right: 20px;
+                }
+
+                .facebook {
+                    font-size: 30px;
+                    background: #3b5998;
+                    border-radius: 50%;
+                    height: 50px;
+                    width: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+
+                }
+            }
+        }
+    }
+}
