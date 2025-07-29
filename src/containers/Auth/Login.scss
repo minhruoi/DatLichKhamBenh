@@ -21,6 +21,18 @@
 
             .login-input {
                 margin: 10px 0;
+
+                .custom-input-password {
+                    position: relative;
+
+                    i {
+                        position: absolute;
+                        right: 10px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        cursor: pointer;
+                    }
+                }
             }
 
             .btn-login {
@@ -56,7 +68,7 @@
                     align-items: center;
                     justify-content: center;
                     color: white;
-                    margin-right: 20px;
+
                 }
 
                 .facebook {
@@ -69,7 +81,7 @@
                     align-items: center;
                     justify-content: center;
                     color: white;
-
+                    margin-right: 20px;
                 }
             }
         }
