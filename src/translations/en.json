@@ -1,4 +1,26 @@
 {
+    "home-header": {
+        "specialty": "Medical specialty",
+        "health-facility": "Health facility",
+        "doctor": "Doctor",
+        "fee": "Medical examination package",
+        "search-placeholder": "Find a doctor by specialty",
+        "select-room": "Select hospital clinic",
+        "select-doctor": "Select good doctor",
+        "check-health": "General health check",
+        "support": "Support"
+    },
+    "banner": {
+        "title1": "HEALTHCARE",
+        "title2": "COMPREHENSIVE HEALTHCARE",
+        "search-placeholder": "Search for medical services",
+        "option1": "Specialist examination",
+        "option2": "Remote examination",
+        "option3": "General examination",
+        "option4": "Medical testing",
+        "option5": "Mental health",
+        "option6": "Dental examination"
+    },
     "common": {
         "add": "Add",
         "edit": "Edit",
